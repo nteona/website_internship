@@ -1,0 +1,32 @@
+body{
+    background-color: white;
+}
+.navbar{
+    background: white;
+    box-shadow: 0px 2px 15px #777;
+
+
+}
+.navbar-brand img{
+    width: 60%;
+    display:block;
+    margin:0 auto;
+
+}
+
+.nav-item {
+    list-style-type: none;
+    align-content: center;
+    font-family: Open Sans,Helvetica,sans-serif;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 600;
+    -webkit-letter-spacing: .2px;
+    -moz-letter-spacing: .2px;
+    -ms-letter-spacing: .2px;
+    letter-spacing: .2px;
+    padding: 5px 10px!important;
+    color: #1b75bc;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}

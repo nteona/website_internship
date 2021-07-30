@@ -4,8 +4,6 @@ body{
 .navbar{
     background: white;
     box-shadow: 0px 2px 15px #777;
-
-
 }
 .navbar-brand img{
     width: 60%;
@@ -13,20 +11,50 @@ body{
     margin:0 auto;
 
 }
-
 .nav-item {
-    list-style-type: none;
-    align-content: center;
     font-family: Open Sans,Helvetica,sans-serif;
     border-radius: 3px;
-    font-size: 17px;
-    font-weight: 600;
+
     -webkit-letter-spacing: .2px;
     -moz-letter-spacing: .2px;
     -ms-letter-spacing: .2px;
     letter-spacing: .2px;
-    padding: 5px 10px!important;
     color: #1b75bc;
-    border-bottom: 2px solid transparent;
+
     cursor: pointer;
+}
+
+
+.image_team {
+    width: 100%;
+    margin: 0%;
+    position:absolute;
+    object-fit: cover; /* Do not scale the image */
+ /* Center the image within the element */
+    max-height: 100%;
+
+}
+
+.overlay-div{
+    height:100%;
+    width: 100%;
+    position:absolute;
+    background-color:#00328D;
+    opacity:30%;
+ }
+
+.image_cloud {
+    width: 100%;
+    max-height: 90%;
+    margin-bottom: 50%;
+    position:absolute;
+    object-fit: fill;
+}
+
+.maintxt{
+    position: relative; 
+    color: #263857;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.33;
 }
